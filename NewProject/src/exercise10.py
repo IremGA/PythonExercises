@@ -20,7 +20,7 @@ def rewind(f):
     
 def total_characters_in_file(f):
     f.seek(0)
-    len(f.read())
+    return len(f.read())
 
 def print_number_of_characters_in_file(character_count,f):
     rewind(current_file)
@@ -51,7 +51,7 @@ print "Reading line number %d" %rand_line
 print_a_specific_line(rand_line, input_file)
 
 rewind(current_file)
-number_of_chars= len(current_file.read())
+number_of_chars= total_characters_in_file(current_file)
 print "Total character number in current file : %r" %number_of_chars
 
 random_char_num = randint(1,int(number_of_chars))
