@@ -1,6 +1,9 @@
 '''
 Created on Jul 11, 2017
 
+Run with the command in Windows Powershell or any terminal : 
+python C:\xx\Workspaces\PythonWS\NewProject\src\exercise9.py C:\xx\Workspaces\PythonWS\NewProject\ex8_sample.txt C:\xx\Workspaces\PythonWS\NewProject\ex9_sample.txt
+
 @author: iaktas
 '''
 from sys import argv
