@@ -1,5 +1,6 @@
 '''
 Created on Jul 12, 2017
+Run in powershell> python C:\gitRepo\NewProject\src\exercise10.py C:\gitRepo\NewProject\ex10_sample.txt
 
 @author: iaktas
 '''
