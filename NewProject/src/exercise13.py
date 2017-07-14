@@ -1,6 +1,6 @@
 '''
 Created on Jul 13, 2017
-List, Loops, Hash maps
+List, For/While Loops, Hash map
 @author: iaktas
 '''
 
