@@ -55,6 +55,9 @@ departmentCustomerCare.createEmployeeGroupforProject(departmentCCProjects[0], si
 astelitProjectMemebers = [employeeIrem, employeeDavid]
 departmentCustomerCare.createEmployeeGroupforProject(departmentCCProjects[1], astelitProjectMemebers)
 
+salesMembers = [employeeRaphael, employeeMelahat, employeeBulent,employeeAbdullah]
+departmentSales.createEmployeeGroupforProject(departmentSalesProjects[0]+" and "+departmentSalesProjects[3], salesMembers)
+
 #Class Creation for Human Resources
 class HumanResources(object):
     def __init__(self,location):
