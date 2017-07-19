@@ -37,7 +37,7 @@ class Employee(object):
         print "\t Annual Leave Hours: %d" %hours_annualLeave
         print "\t Sick Leave Hours: %d" %hours_sickLeave
         print "\t Bank Holiday Hours: %d" %hours_bankHoliday
-        print "\t Un Paid Leave Hours: %d" %hours_unpaid_leave
+        print "\t Unpaid Leave Hours: %d" %hours_unpaid_leave
         return 20-hours_unpaid_leave/8
 
 
