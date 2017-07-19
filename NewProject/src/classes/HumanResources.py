@@ -11,11 +11,11 @@ from datetime import datetime
 
 #Create Employees
 employeeIrem = Employee.Employee("Irem", "Aktas","Software Engineer", "Istanbul", "Real Time Charging & Billing","250")
-employeeKutyar = Employee.Employee("Kutyar", "Oztas","Sr Test Engineer", "Istanbul", "Real Time Charging & Billing","350")
+employeeKutyar = Employee.Employee("Kutyar", "Koctas","Sr Test Engineer", "Istanbul", "Real Time Charging & Billing","350")
 employeeDavid = Employee.Employee("David", "Daryl","Technical Architect", "Istanbul", "Real Time Charging & Billing","450")
 employeeAbdullah = Employee.Employee("Abdullah", "Serin","Solution Architect", "Istanbul", "Real Time Charging & Billing","450")
 employeeBulent= Employee.Employee("Bulent", "Tatli","Project Manager", "Istanbul", "Real Time Charging & Billing","500")
-employeeRaphael = Employee.Employee("Raphael", "Chucky", "Sales Director", "Canada", "Sales","650")
+employeeRaphael = Employee.Employee("Raphael", "Chu", "Sales Director", "Canada", "Sales","650")
 employeeMelahat =Employee.Employee("Melahat", "Garden", "Sales Manager", "Canada", "Sales","600")
 
 ''' do something for Irem Aktas'''
