@@ -12,6 +12,8 @@ class Department(object):
     def __init__(self, name, isActive, projects):
         '''
         Constructor
+            params:
+                name, isActive,projects
         '''
         self.name=name
         self.isActive=isActive

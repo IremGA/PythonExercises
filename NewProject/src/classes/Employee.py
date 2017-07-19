@@ -8,16 +8,23 @@ class Employee(object):
     '''
     classdocs
     '''
-
+    #global variable of class. Default is 0
     workedHours=0
     def __init__(self, name, surname, title, city, departmentName,sallaryPerDay):
         '''
         Constructor
+            params:
+                name 
+                surname
+                title
+                city 
+                departmentName 
+            
         '''
         self.name=name
         self.surname=surname
         self.title=title
-        '''Office or city '''
+        '''Location Office or city '''
         self.city=city
         self.departmentName=departmentName
         self.sallaryPerDay=sallaryPerDay
@@ -31,7 +38,7 @@ class Employee(object):
     def getExpenseRequest(self, howMuch):
         print "Hi %s !Your expense request (%d TL) has been forwarded to responsible person. " %(self.name, howMuch)
 
-    def bookWorkingHoursPerMonth_returnWorkedHours(self, hours_worked, hours_annualLeave, hours_sickLeave, hours_bankHoliday, hours_unpaid_leave):
+    def bookWorkingHoursPerMonth_returnWorkedDays(self, hours_worked, hours_annualLeave, hours_sickLeave, hours_bankHoliday, hours_unpaid_leave):
         print "Hi %s ! Your working hours per week has been sent to responsible person."%(self.name)
         print "\t Worked Hours : %d" %hours_worked
         print "\t Annual Leave Hours: %d" %hours_annualLeave
