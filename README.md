@@ -27,3 +27,4 @@ Briefly Content of Python Modules in the project :
 * **src.classes.Department.py :** Classes, Creating Constructors, Class functions and variables
 * **src.classes.Employee.py :** Classes, Creating Constructors, Class functions and variables
 * **src.classes.HumanResources.py :** Global Variables and Functions, Basic Object Oriented concepts
+* **src.inheritance.Hobby.py :** Inheritance concept with Command Pattern.
